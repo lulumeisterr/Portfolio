@@ -1,6 +1,7 @@
 * {
     font-family: sans-serif;
     font-size: 1rem;
+    text-decoration: none;
 }
 img {
     max-width: 100%;
@@ -58,7 +59,7 @@ img {
     
 }
 .certificacoes{
-    list-style: none;
+    list-style-type: none;
     display: flex;
     align-items: center;
     justify-content: center;

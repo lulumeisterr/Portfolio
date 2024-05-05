@@ -13,7 +13,7 @@ idBtn.addEventListener('click', (event) => {
         disableTextAboutMe.style.display = "none";
         enableTextExperience.style.display = "block";
         isClicked = true;
-        idBtn.textContent = "Sobre mim";
+        idBtn.textContent = "Sobre";
         titleCard.textContent = 'Experiências'
         titleCard.style.textAlign = "center"
         return;
