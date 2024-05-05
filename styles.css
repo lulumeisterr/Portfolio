@@ -79,6 +79,14 @@ img {
 .list {
     list-style-type: none;
 }
+.hashtag {
+    display: inline-block;
+    border: 1px solid #000;
+    padding: 5px 5px;
+    height: 100%;
+    border-radius: 4px;
+    margin-top: 5px;
+}
 @media(max-width: 600px) {
     .container {
         grid-template-columns: 1fr;
