@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <section class="me">
+            <img class="image-profile" src="./assets/images/perfil.jpg" alt="foto-de-perfil"></img>
+            <h1>Lucas Rodrigues</h1>
+            <div class="social-media">
+               <img style="cursor: pointer;" id="email-btn" src="./assets/icones/icons8-email.svg" alt="icone-de-email"></img>
+               <a href="https://github.com/lulumeisterr" ><img src="./assets/icones/icons8-github.svg" alt="Github"></img></a>
+               <a href="https://www.linkedin.com/in/lulumeister/"><img src="./assets/icones/icons8-linkedin.svg" alt="Linkedin"></img></a>
+            </div>
+        </section>
+        <section class="intro">
+            <h1 id="title-card">Sobre mim</h1>
+            <div id="about-me-text">
+                <p>
+                    Profissional com formação em Análise e Desenvolvimento de Sistemas pela FIAP e especialização em Desenvolvimento Full
+                    Stack através de um MBA. Possuo experiência abrangente em desenvolvimento de sistemas, tanto no backend quanto no
+                    frontend, adaptando-me conforme as demandas. Busco constantemente desafios que me permitam expandir meus horizontes além
+                    das soluções convencionais, sempre em busca de oportunidades que impulsionem meu crescimento profissional contínuo.
+                </p>
+                <h3 style="font-size: 2rem";>Tecnologias</h3>
+                <div class="tecnologias">
+                    <img src="./assets/icones/icons8-c-afiado-logotipo-2.svg" alt="icone-de-email"></img>
+                    <img src="./assets/icones/icons8-logo-java-coffee-cup.svg" alt="icone-de-email"></img>
+                    <img src="./assets/icones/icons8-python.svg" alt="icone-de-email"></img>
+                    <img src="./assets/icones/icons8-nodejs.svg" alt="icone-de-email"></img>
+                    <img src="./assets/icones/icons8-azure-48.png" alt="icone-de-email"></img>
+                    <img src="./assets/icones/icons8-amazon-web-services.svg" alt="icone-de-email"></img>
+                </div>
+            </div>
+            <div id="experience-text" style="display: none;">
+                <ul>
+                    <li>
+                        <h3 style="color: #002c63; font-weight: 400;">Bolsa Brasil Balcão</h3>
+                        <p>Responsável pelo desenvolvimento e otimização de relatórios para o Sistema Integrado de Administração de Corretoras
+                        (Sinacor) com a transição de funcionalidades desenvolvidas em Centura para <b>.NET 4.7.2</b>, 
+                        Também liderando melhorias nos módulos do GAP (Gestor de ativos prime) com objetivo de implementar deposito e retirada de título público federal
+                        para os clientes da <b>B3</b>.
+                        Desempenhei um papel fundamental na construção interna de um sistema para a <b>B3</b>, utilizando <b>.NET Core 6</b>. Além disso, fiz
+                        parte da equipe de desenvolvimento <b>Java</b> no projeto Hub Balcão, o qual tinha como responsabilidade fornecer ambientes de
+                        pós-negociação de títulos de renda fixa para internet.</p>
+                    </li>
+                    <li>
+                        <h3 style="color: #51821b; font-weight: 400;">NTT DATA - Cielo & Unilever</h3>
+                        <p>Responsavel por integrar soluções de mensageria com as plataformas Infobip e Facebook, com o propósito de otimizar a
+                        interação com os clientes através do WhatsApp Business e do Messenger (FB). Além disso, foram aplicados recursos
+                        cognitivos baseados em nuvem para mapear os fluxos de atendimento, com o objetivo de aprimorar a experiência do usuário
+                        final utilizando Java EE , Spring Framework , Soluções de Inteligência Artificial como Watson IBM, Luis Microsoft e Luis Microsoft
+                        a partir de soluções em nuvem da Microsoft (Azure Plataform) </p>
+                    </li>
+                    <li>
+                        <h3 style="color: #ff710f; font-weight: 400;">Added</h3>
+                        <p>
+                            Como responsável pelo desenvolvimento, ajudei na criação de um sistema web para a <b>Prosegur</b>, utilizando Python em
+                            conjunto com a <b>biblioteca openpyxl.</b> O projeto visava oferecer uma interface intuitiva para a geração de
+                            relatórios
+                            diários, integrando-se de forma direta à base de dados Informix,
+                            Paralelamente, contribuí para o desenvolvimento e aprimoramento de relatórios na plataforma de streaming Vid+/Algar.
+                            Essa experiência demandou a integração com recursos REST em <b>Python</b> fornecidos pela empresa de telecomunicações
+                            Comcast.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <button style="margin-top: 3%;" type="button" id="id-btn" class="btn">Experiências</button>
+        </section>
+    </main>
+    <footer style="margin: 0 auto;">
+        <p style="text-align: center;">Developed by @Lucas Rodrigues</p>
+    </footer>
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
