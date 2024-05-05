@@ -1,6 +1,6 @@
 * {
     font-family: sans-serif;
-    font-size: 1rem;
+    font-size: 1.1rem;
     text-decoration: none;
 }
 img {
@@ -12,21 +12,32 @@ img {
 .container {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    align-items: center;
-    justify-items: end;
-    margin: 5%;
-    gap: 5%;
+    margin: 5rem 5rem;
 }
 .me {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 5px;
+    justify-content: flex-start;
+    padding: 1.5rem 0;
 }
 .intro {
-    background-color: #DCDCDC;
+    background-color: #ededed;
     border-radius: 15px;
-    padding: 15px;
+    padding: 1rem 1rem;
+}
+.experiencie {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+.employe {
+    padding: 0 15px 15px;
+    border-radius: 15px;
+}
+.b3 , .ntt ,.added {
+    background: #f9f9f9;
 }
 .image-profile {
     height: 300px;
@@ -71,9 +82,13 @@ img {
 @media(max-width: 600px) {
     .container {
         grid-template-columns: 1fr;
-        justify-items: center;
         margin: 0 auto;
         text-align: center;
-        gap: 1rem;
+    }
+    .experiencie {
+        grid-template-columns: 1fr;
+    }
+    .me {
+        padding: 0;
     }
 }
