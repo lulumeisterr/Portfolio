@@ -14,12 +14,14 @@ idBtn.addEventListener('click', (event) => {
         enableTextExperience.style.display = "block";
         isClicked = true;
         idBtn.textContent = "Sobre mim";
-        titleCard.textContent = 'Minhas Experiências'
+        titleCard.textContent = 'Experiências'
+        titleCard.style.textAlign = "center"
         return;
     }
     disableTextAboutMe.style.display = "block";
     enableTextExperience.style.display = "none";
     idBtn.textContent = "Experiências";
     titleCard.textContent = 'Sobre mim'
+    titleCard.style.textAlign = "unset"
     isClicked = false;
 });

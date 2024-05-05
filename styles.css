@@ -20,7 +20,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
 }
 .intro {
     background-color: #DCDCDC;
@@ -51,7 +51,21 @@ img {
 }
 .tecnologias {
     display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
     gap: 15px;
+    
+}
+.certificacoes{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.list {
+    list-style-type: none;
 }
 @media(max-width: 600px) {
     .container {
