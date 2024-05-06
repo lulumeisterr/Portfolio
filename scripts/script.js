@@ -40,7 +40,7 @@ hasClickedBtnInitial.addEventListener('click', (event) => {
     }
     disableTextAboutMe.style.display = "block";
     enableTextExperience.style.display = "none";
-    titleCard.textContent = 'Experiências'
+    titleCard.textContent = 'Sobre'
     titleCard.style.textAlign = "unset"
     introBackGround.style.backgroundColor = "#ededed"
     hasClickedBtnInitial.textContent = "Experiências";
