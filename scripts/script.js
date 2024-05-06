@@ -21,6 +21,7 @@ hasClickedBtnProfile.addEventListener('click', (event) => {
     isClicked = false;
 });
 hasClickedBtnInitial.addEventListener('click', (event) => {
+    window.scrollTo(0, 0);
     if (!isClicked) {
         disableTextAboutMe.style.display = "none";
         enableTextExperience.style.display = "grid";
